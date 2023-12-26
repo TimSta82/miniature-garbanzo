@@ -15,6 +15,8 @@ class ProfileViewModel : ViewModel() {
     private val _uiState = MutableStateFlow(UiState())
     val uiState: StateFlow<UiState> = _uiState.asStateFlow()
 
+    private var wsClient : FinanceWebSocketClient? = null
+
     init {
         stopLoading()
         establishWebSocket()
@@ -22,7 +24,7 @@ class ProfileViewModel : ViewModel() {
 
     private fun establishWebSocket() {
         val serverUri = URI("wss://ws.finnhub.io?token=cm5k74pr01qjc6l4h020cm5k74pr01qjc6l4h02g")
-        val wsClient = FinanceWebSocketClient(
+        wsClient = FinanceWebSocketClient(
             serverUri = serverUri,
             messageListener = { message ->
                 val _item = HashMap<String, Any>()
@@ -35,7 +37,7 @@ class ProfileViewModel : ViewModel() {
                 _uiState.value = _uiState.value.copy(errorMessage = it?.message ?: "Iwas falsch")
             }
         )
-        wsClient.connect()
+        wsClient?.connect()
     }
 
     private fun stopLoading() {
@@ -43,6 +45,10 @@ class ProfileViewModel : ViewModel() {
             delay(1000L)
             _uiState.value = _uiState.value.copy(isLoading = false)
         }
+    }
+
+    fun closeWebSocketConnection() {
+        wsClient?.close()
     }
 }
 
