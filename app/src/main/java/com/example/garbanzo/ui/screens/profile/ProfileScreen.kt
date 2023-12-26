@@ -21,7 +21,7 @@ import kotlin.random.Random
 @Composable
 fun ProfileScreen(name: String, onClick: () -> Unit) {
 
-    val viewModel : ProfileViewModel = viewModel()
+    val viewModel: ProfileViewModel = viewModel()
     val uiState by viewModel.uiState.collectAsState()
 
     Box(
@@ -33,12 +33,25 @@ fun ProfileScreen(name: String, onClick: () -> Unit) {
         if (uiState.isLoading) {
             CircularProgressIndicator()
         } else {
-        Text(
-            modifier = Modifier.clickable { onClick() },
-            text = "Arschkrampe",
-            fontSize = MaterialTheme.typography.body1.fontSize,
-            fontWeight = FontWeight.Bold
-        )
+            if (uiState.errorMessage != null) {
+                Text(
+                    modifier = Modifier.clickable { onClick() },
+                    text = uiState.errorMessage!!,
+                    fontSize = MaterialTheme.typography.body1.fontSize,
+                    fontWeight = FontWeight.Bold
+                )
+            } else {
+                uiState.messages.forEach { hashMap ->
+                    hashMap.forEach {
+                        Text(
+                            modifier = Modifier.clickable { onClick() },
+                            text = it.key,
+                            fontSize = MaterialTheme.typography.body1.fontSize,
+                            fontWeight = FontWeight.Bold
+                        )
+                    }
+                }
+            }
         }
     }
 }

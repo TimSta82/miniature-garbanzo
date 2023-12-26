@@ -6,5 +6,7 @@ import org.koin.dsl.module
 
 val appModule = module {
 
+//    single { (serverUri: URI, messageListener: (String) -> Unit) -> FinanceWebSocketClient(serverUri, messageListener) }
+
     viewModelOf(::ProfileViewModel)
 }
