@@ -1,12 +1,12 @@
 <component name="libraryTable">
   <library name="Gradle: androidx.compose.ui:ui-android:1.5.4@aar" external-system-id="GRADLE">
     <ANNOTATIONS>
-      <root url="jar://$USER_HOME$/.jdks/jbrsdk-17.0.9/caches/transforms-3/42f190a68efc80368dcb310dcfab12fa/transformed/ui-release/annotations.zip!/" />
+      <root url="jar://$USER_HOME$/.jdks/jbrsdk-17.0.9/caches/transforms-3/df1c11def213b7cfdb9bc8b59664a8e6/transformed/ui-release/annotations.zip!/" />
     </ANNOTATIONS>
     <CLASSES>
-      <root url="file://$USER_HOME$/.jdks/jbrsdk-17.0.9/caches/transforms-3/42f190a68efc80368dcb310dcfab12fa/transformed/ui-release/AndroidManifest.xml" />
-      <root url="file://$USER_HOME$/.jdks/jbrsdk-17.0.9/caches/transforms-3/42f190a68efc80368dcb310dcfab12fa/transformed/ui-release/res" />
-      <root url="jar://$USER_HOME$/.jdks/jbrsdk-17.0.9/caches/transforms-3/42f190a68efc80368dcb310dcfab12fa/transformed/ui-release/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.jdks/jbrsdk-17.0.9/caches/transforms-3/df1c11def213b7cfdb9bc8b59664a8e6/transformed/ui-release/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.jdks/jbrsdk-17.0.9/caches/transforms-3/df1c11def213b7cfdb9bc8b59664a8e6/transformed/ui-release/res" />
+      <root url="jar://$USER_HOME$/.jdks/jbrsdk-17.0.9/caches/transforms-3/df1c11def213b7cfdb9bc8b59664a8e6/transformed/ui-release/jars/classes.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>

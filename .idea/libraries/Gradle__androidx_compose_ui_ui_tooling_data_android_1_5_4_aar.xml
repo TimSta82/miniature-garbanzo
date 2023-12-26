@@ -1,9 +1,9 @@
 <component name="libraryTable">
   <library name="Gradle: androidx.compose.ui:ui-tooling-data-android:1.5.4@aar" external-system-id="GRADLE">
     <CLASSES>
-      <root url="file://$USER_HOME$/.jdks/jbrsdk-17.0.9/caches/transforms-3/9d62b6dabc8a6b48a1e45c5d7b6c1f7f/transformed/ui-tooling-data-release/AndroidManifest.xml" />
-      <root url="jar://$USER_HOME$/.jdks/jbrsdk-17.0.9/caches/transforms-3/9d62b6dabc8a6b48a1e45c5d7b6c1f7f/transformed/ui-tooling-data-release/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.jdks/jbrsdk-17.0.9/caches/transforms-3/9d62b6dabc8a6b48a1e45c5d7b6c1f7f/transformed/ui-tooling-data-release/res" />
+      <root url="jar://$USER_HOME$/.jdks/jbrsdk-17.0.9/caches/transforms-3/d5d18f7c7be5ea4ae0bd598a8c112d52/transformed/ui-tooling-data-release/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.jdks/jbrsdk-17.0.9/caches/transforms-3/d5d18f7c7be5ea4ae0bd598a8c112d52/transformed/ui-tooling-data-release/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.jdks/jbrsdk-17.0.9/caches/transforms-3/d5d18f7c7be5ea4ae0bd598a8c112d52/transformed/ui-tooling-data-release/res" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>

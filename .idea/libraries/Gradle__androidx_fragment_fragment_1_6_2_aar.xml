@@ -1,12 +1,12 @@
 <component name="libraryTable">
   <library name="Gradle: androidx.fragment:fragment:1.6.2@aar" external-system-id="GRADLE">
     <ANNOTATIONS>
-      <root url="jar://$USER_HOME$/.jdks/jbrsdk-17.0.9/caches/transforms-3/46ea8792467427b43d25660331c3f9a2/transformed/fragment-1.6.2/annotations.zip!/" />
+      <root url="jar://$USER_HOME$/.jdks/jbrsdk-17.0.9/caches/transforms-3/801a48301ca4fb270cd5e985d1ed6c40/transformed/fragment-1.6.2/annotations.zip!/" />
     </ANNOTATIONS>
     <CLASSES>
-      <root url="jar://$USER_HOME$/.jdks/jbrsdk-17.0.9/caches/transforms-3/46ea8792467427b43d25660331c3f9a2/transformed/fragment-1.6.2/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.jdks/jbrsdk-17.0.9/caches/transforms-3/46ea8792467427b43d25660331c3f9a2/transformed/fragment-1.6.2/AndroidManifest.xml" />
-      <root url="file://$USER_HOME$/.jdks/jbrsdk-17.0.9/caches/transforms-3/46ea8792467427b43d25660331c3f9a2/transformed/fragment-1.6.2/res" />
+      <root url="jar://$USER_HOME$/.jdks/jbrsdk-17.0.9/caches/transforms-3/801a48301ca4fb270cd5e985d1ed6c40/transformed/fragment-1.6.2/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.jdks/jbrsdk-17.0.9/caches/transforms-3/801a48301ca4fb270cd5e985d1ed6c40/transformed/fragment-1.6.2/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.jdks/jbrsdk-17.0.9/caches/transforms-3/801a48301ca4fb270cd5e985d1ed6c40/transformed/fragment-1.6.2/res" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>

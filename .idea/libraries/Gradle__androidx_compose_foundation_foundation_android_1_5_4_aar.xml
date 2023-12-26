@@ -1,9 +1,9 @@
 <component name="libraryTable">
   <library name="Gradle: androidx.compose.foundation:foundation-android:1.5.4@aar" external-system-id="GRADLE">
     <CLASSES>
-      <root url="file://$USER_HOME$/.jdks/jbrsdk-17.0.9/caches/transforms-3/9ec95cb025e5d1ab1e21a23e8ba65b13/transformed/foundation-release/res" />
-      <root url="file://$USER_HOME$/.jdks/jbrsdk-17.0.9/caches/transforms-3/9ec95cb025e5d1ab1e21a23e8ba65b13/transformed/foundation-release/AndroidManifest.xml" />
-      <root url="jar://$USER_HOME$/.jdks/jbrsdk-17.0.9/caches/transforms-3/9ec95cb025e5d1ab1e21a23e8ba65b13/transformed/foundation-release/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.jdks/jbrsdk-17.0.9/caches/transforms-3/4a1ee15eac8f594d6e858e252c7e1cde/transformed/foundation-release/res" />
+      <root url="file://$USER_HOME$/.jdks/jbrsdk-17.0.9/caches/transforms-3/4a1ee15eac8f594d6e858e252c7e1cde/transformed/foundation-release/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.jdks/jbrsdk-17.0.9/caches/transforms-3/4a1ee15eac8f594d6e858e252c7e1cde/transformed/foundation-release/jars/classes.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>

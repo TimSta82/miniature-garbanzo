@@ -1,9 +1,9 @@
 <component name="libraryTable">
   <library name="Gradle: androidx.activity:activity-compose:1.8.2@aar" external-system-id="GRADLE">
     <CLASSES>
-      <root url="file://$USER_HOME$/.jdks/jbrsdk-17.0.9/caches/transforms-3/388e4209ca151504c396dfed7db56d7a/transformed/activity-compose-1.8.2/res" />
-      <root url="jar://$USER_HOME$/.jdks/jbrsdk-17.0.9/caches/transforms-3/388e4209ca151504c396dfed7db56d7a/transformed/activity-compose-1.8.2/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.jdks/jbrsdk-17.0.9/caches/transforms-3/388e4209ca151504c396dfed7db56d7a/transformed/activity-compose-1.8.2/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.jdks/jbrsdk-17.0.9/caches/transforms-3/c88cb42c6f1502149d71e239653ca2bd/transformed/activity-compose-1.8.2/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.jdks/jbrsdk-17.0.9/caches/transforms-3/c88cb42c6f1502149d71e239653ca2bd/transformed/activity-compose-1.8.2/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.jdks/jbrsdk-17.0.9/caches/transforms-3/c88cb42c6f1502149d71e239653ca2bd/transformed/activity-compose-1.8.2/res" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>
