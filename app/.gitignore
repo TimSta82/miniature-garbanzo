@@ -6,6 +6,7 @@ out/
 # Android Studio
 .idea/
 *.iml
+.idea/workspace.xml
 
 # Log-Dateien
 *.log
