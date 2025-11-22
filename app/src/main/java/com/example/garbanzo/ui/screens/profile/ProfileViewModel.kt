@@ -19,7 +19,7 @@ class ProfileViewModel : ViewModel() {
 
     init {
         stopLoading()
-        establishWebSocket()
+//        establishWebSocket()
     }
 
     private fun establishWebSocket() {
