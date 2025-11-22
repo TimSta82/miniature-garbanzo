@@ -1,1 +1,34 @@
-/build
+# Gradle
+.gradle/
+build/
+out/
+
+# Android Studio
+.idea/
+*.iml
+
+# Log-Dateien
+*.log
+
+# Betriebssystem-spezifische Dateien
+.DS_Store
+Thumbs.db
+
+# Kotlin Build-Dateien
+*.kotlin_metadata
+
+# Android Studio Verzeichnisse
+local.properties
+*.hprof
+
+# Gradle Wrapper
+gradle-wrapper.jar
+
+# Android build output
+/captures/
+
+# Test-Ausgabe
+/test-logs/
+
+# Verschlüsselte API-Schlüssel
+/secrets/
